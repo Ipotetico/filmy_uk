@@ -1,8 +1,9 @@
 import React from 'react'
+import Browser from './components/Browser/Browser'
 
 const App = () => {
   return (
-    <div>App</div>
+  <Browser/>
   )
 }
 
