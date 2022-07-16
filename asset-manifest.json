@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filmy_uk/static/css/main.90f6920e.css",
+    "main.js": "/filmy_uk/static/js/main.f33b8850.js",
+    "index.html": "/filmy_uk/index.html",
+    "main.90f6920e.css.map": "/filmy_uk/static/css/main.90f6920e.css.map",
+    "main.f33b8850.js.map": "/filmy_uk/static/js/main.f33b8850.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90f6920e.css",
+    "static/js/main.f33b8850.js"
+  ]
+}
