@@ -1,8 +1,13 @@
 import React from 'react'
+import Menu from './Menu/Menu'
+
+import './Browser.scss'
 
 const Browser = () => {
   return (
-    <div>Browser</div>
+      <div className="browser_container">
+      <Menu/>
+</div>
   )
 }
 
