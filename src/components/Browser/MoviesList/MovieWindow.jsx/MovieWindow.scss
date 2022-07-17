@@ -1,0 +1,83 @@
+.movieWindow__container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(black, 0.1);
+
+
+
+    .opis {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        top: 65%;
+        transition: all .3s;
+        font-size: 14px;
+        font-weight: 200;
+
+        &.open {
+            top: 10%;
+        }
+
+        .hash {
+            width: 20%;
+            color: white;
+            background-color: dodgerblue;
+            padding: 7px 12px;
+            border-radius: 15px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        .title__container {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 10px 0px;
+
+            .more {
+                width: 30px;
+                cursor: pointer;
+                transition: all .3s;
+            }
+
+            .title {
+                font-size: 20px;
+                margin-left: 20px;
+                font-weight: 400;
+            }
+
+            .download {
+                width: 40px;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                margin: 0 10px;
+            }
+        }
+
+
+    }
+
+    img {
+        width: 100%;
+    }
+}

@@ -9,8 +9,6 @@ const Search = () => {
           </div>
           <input className='search__input' type="text" placeholder='Szukaj...' />
           <button className="search__btn"> Search</button>
-    
-       
 </div>
   )
 }
