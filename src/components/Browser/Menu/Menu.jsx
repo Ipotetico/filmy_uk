@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from './Logo/Logo'
 import './Menu.scss'
+import Search from './Search/Search'
+import User from './User/User'
 
 const Menu = () => {
   return (
@@ -8,6 +10,8 @@ const Menu = () => {
           <Logo logo='Kore' address="agencjakore.pl" />
           <Logo logo='HTP' address="hightidepictures.eu" />
           <Logo logo='MAX' address="" />
+          <Search />
+          <User/>
 </div>
   )
 }
