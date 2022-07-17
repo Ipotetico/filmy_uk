@@ -1,8 +1,8 @@
-import React from "react";
-import "./MiddleInfo_Frame.scss";
+import React from 'react';
+import './MiddleInfo_Frame.scss';
 
 const MiddleInfo_Frame = () => {
-  return <div className="middleInfo_Frame__container">dupa</div>;
+  return <div className='middleInfo_Frame__container'></div>;
 };
 
 export default MiddleInfo_Frame;

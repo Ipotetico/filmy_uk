@@ -1,12 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './MovieWindow.scss';
 
-const MovieWindow = ({ hash, title, opis, length, weight }) => {
+const MovieWindow = ({ hash, title, opis, length, weight, address }) => {
   const [open, setOpen] = useState(false);
+
+  const ref = useRef(null);
+  const handlePlayVideo = () => {
+    ref.current.play();
+  };
+  const handlePauseVideo = () => {
+    ref.current.pause();
+  };
 
   return (
     <div className='movieWindow__container'>
-      <img src={process.env.PUBLIC_URL + '/images/zaslepki/01.webp'} alt='' />
+      <video
+        ref={ref}
+        onMouseEnter={handlePlayVideo}
+        onMouseLeave={handlePauseVideo}
+        muted
+        src={address}></video>
       <div className={open ? 'opis open' : 'opis'}>
         <h1 className='hash'>#{hash}</h1>
         <div className='title__container'>

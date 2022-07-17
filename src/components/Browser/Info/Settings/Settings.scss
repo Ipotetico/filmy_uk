@@ -3,4 +3,12 @@
   height: 100%;
   background-color: white;
   border-radius: 5px;
+  background: linear-gradient(124.35deg, #2F80ED 10.19%, #A0C9FF 78.43%);
+  transition: all .5s;
+
+  &:hover {
+    box-shadow: 0 20px 20px rgba(black, 0.3);
+  }
+
+
 }

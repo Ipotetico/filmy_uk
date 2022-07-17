@@ -13,6 +13,7 @@ const MoviesList = () => {
           opis={movie.opis}
           length={movie.length}
           weight={movie.weight}
+          address={movie.address}
         />
       ))}
     </div>

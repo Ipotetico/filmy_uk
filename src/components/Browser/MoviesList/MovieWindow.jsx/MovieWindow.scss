@@ -9,8 +9,16 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(black, 0.1);
+    transition: all .5s;
 
+    &:hover {
+        box-shadow: 0 20px 20px rgba(black, 0.2);
+    }
 
+    video {
+        width: 100%;
+        cursor: pointer;
+    }
 
     .opis {
         position: absolute;
@@ -42,7 +50,7 @@
             justify-content: center;
             text-align: center;
             font-size: 12px;
-            font-weight: 100;
+            font-weight: 200;
         }
 
         .title__container {
