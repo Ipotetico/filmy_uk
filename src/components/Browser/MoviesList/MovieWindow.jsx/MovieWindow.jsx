@@ -5,6 +5,7 @@ const MovieWindow = ({ hash, title, opis, length, weight, address }) => {
   const [open, setOpen] = useState(false);
 
   const ref = useRef(null);
+
   const handlePlayVideo = () => {
     ref.current.play();
   };

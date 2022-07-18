@@ -1,9 +1,10 @@
 import React from 'react';
 import Menu from './Menu/Menu';
-
-import './Browser.scss';
 import Info from './Info/Info';
 import MoviesList from './MoviesList/MoviesList';
+import Footer from './Footer/Footer';
+
+import './Browser.scss';
 
 const Browser = () => {
   return (
@@ -11,6 +12,7 @@ const Browser = () => {
       <Menu />
       <Info />
       <MoviesList />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,50 @@
+.footer__container {
+    box-sizing: border-box;
+    width: 70vw;
+    max-width: 1440px;
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+
+    .faq {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 14px;
+
+        .title {
+            color: rgb(162, 162, 162);
+            text-transform: uppercase;
+        }
+
+        .footer__item {
+            color: white;
+            text-transform: capitalize;
+            font-size: 14px;
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: rgb(162, 162, 162);
+        padding: 55px 0 0 0;
+
+        img {
+            height: 30px;
+            margin-left: 30px;
+
+
+            &:nth-of-type(3) {
+                height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.tutorialMovie__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 20px 40px rgba($color: #000000, $alpha: .5);
+    overflow: hidden;
+    transition: all .5s;
+
+    .close {
+        position: absolute;
+        right: 3%;
+        top: 3%;
+        cursor: pointer;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    &.open {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
