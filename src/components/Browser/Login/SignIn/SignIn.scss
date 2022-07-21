@@ -1,0 +1,66 @@
+.login__container {
+    position: relative;
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+
+    .fala {
+        position: absolute;
+        width: 100%;
+    }
+
+    .ukry {
+        position: absolute;
+        height: 100%;
+        right: 0;
+    }
+
+    h1 {
+        z-index: 1;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    input {
+        z-index: 1;
+        background-color: #fff;
+        border: 1px solid dodgerblue;
+        width: 33%;
+        height: 50px;
+        padding: 0 20px;
+        font-size: 14px;
+        color: rgb(110, 110, 110);
+    }
+
+    .link {
+        z-index: 1;
+        color: dodgerblue;
+        font-size: 12px;
+        font-weight: 400;
+
+        span {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .btn {
+        z-index: 1;
+        background-color: dodgerblue;
+        color: white;
+        font-weight: 14;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border: none;
+        appearance: none;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,89 @@
+.signUp__container {
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+
+    .fala {
+        position: absolute;
+        width: 100%;
+    }
+
+    .ukry {
+        position: absolute;
+        height: 80%;
+        right: -5%;
+    }
+
+    .name__container {
+        z-index: 1;
+        width: 35%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid dodgerblue;
+            width: 48%;
+            height: 50px;
+            padding: 0 20px;
+            font-size: 14px;
+            color: rgb(110, 110, 110);
+        }
+    }
+
+    h1 {
+        z-index: 1;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    input {
+        box-sizing: border-box;
+        z-index: 1;
+        background-color: #fff;
+        border: 1px solid dodgerblue;
+        width: 35%;
+        height: 50px;
+        padding: 0 20px;
+        font-size: 14px;
+        color: rgb(110, 110, 110);
+    }
+
+    .link {
+        z-index: 1;
+        color: dodgerblue;
+        font-size: 12px;
+        font-weight: 400;
+
+        span {
+            z-index: 2;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .btn {
+        z-index: 1;
+        background-color: dodgerblue;
+        color: white;
+        font-weight: 14;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border: none;
+        appearance: none;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}
