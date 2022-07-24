@@ -1,0 +1,20 @@
+    .hamburg {
+        width: 10%;
+        height: 100%;
+        display: none;
+        margin-right: 10px;
+        cursor: pointer;
+        transform: rotate(0);
+        transition: all 0.3s ease;
+        z-index: 3;
+
+        &.open {
+            transform: rotate(45deg);
+        }
+
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }

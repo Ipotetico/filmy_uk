@@ -8,6 +8,11 @@
   padding: 20px;
   box-sizing: border-box;
 
+  @media screen and (max-width: 1115px) {
+    display: flex;
+    height: clac(100/3*2%);
+  }
+
   &:hover {
     box-shadow: 0 20px 20px rgba(black, 0.3);
   }
@@ -15,11 +20,16 @@
   &:first-child {
     margin-bottom: 10px;
     background: linear-gradient(124.35deg, #4466DF 10.19%, #FFE600 78.43%);
+
   }
 
   &:last-child {
     margin-top: 10px;
     background: linear-gradient(124.35deg, #FFF278 10.19%, #4466DF 78.43%);
+
+    @media screen and (max-width: 1115px) {
+      margin-bottom: 10px;
+    }
   }
 
   .title {

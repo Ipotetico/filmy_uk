@@ -1,0 +1,21 @@
+.menuHamburg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 2;
+    transform: translate(20%, 10%);
+    box-shadow: -20px 0px 20px rgba(black, 0.1);
+    transition: all .3s;
+
+    &.open {
+        transform: translate(100%, 10%);
+    }
+
+    @media screen and (max-width: 1115px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

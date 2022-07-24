@@ -6,4 +6,8 @@
         justify-content: center;
         margin-right: 10px;
         cursor: pointer;
+
+        @media screen and (max-width: 1115px) {
+            display: none;
+        }
     }

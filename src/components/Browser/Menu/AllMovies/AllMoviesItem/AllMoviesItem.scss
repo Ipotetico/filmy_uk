@@ -1,0 +1,21 @@
+.allMoviesItem__container {
+    padding: 10px 0;
+    transition: all .5s;
+
+    h1 {
+        font-weight: 200;
+        color: rgb(173, 173, 173);
+        text-transform: uppercase;
+        transition: all .5s;
+        cursor: pointer;
+        background-color: rgba(black, 0.0);
+        padding: 10px;
+
+        &:hover {
+            color: black;
+            font-weight: 600;
+            background-color: rgba(black, 0.1);
+        }
+    }
+
+}
