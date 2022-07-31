@@ -1,5 +1,6 @@
 import React from 'react';
 import MiddleInfoFrame from './MiddleInfoFrame/MiddleInfoFrame';
+import texts from  '../../../data/texts';
 
 import './MiddleInfo.scss';
 
@@ -7,16 +8,14 @@ const MiddleInfo = () => {
   return (
     <div className='middleInfo__container'>
       <MiddleInfoFrame
-        title='Lorem ipsum'
-        subtitle='Ut ac feugiat neque.'
-        copy='
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'
+        title={texts.frameOne.title}
+        subtitle={texts.frameOne.subtitle}
+        copy={texts.frameOne.copy}
       />
       <MiddleInfoFrame
-        title='Dolor sic amet'
-        subtitle='Ut ac feugiat neque.'
-        copy='
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'
+        title={texts.frameTwo.title}
+        subtitle={texts.frameTwo.subtitle}
+        copy={texts.frameTwo.copy}
       />
     </div>
   );
