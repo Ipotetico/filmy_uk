@@ -1,10 +1,13 @@
 import React from 'react';
 import './AllMoviesItem.scss';
 
-const AllMoviesItem = ({ title }) => {
+const AllMoviesItem = ({ title, setOpen }) => {
+  const handleClick = () => {
+    setOpen(false);
+  };
   return (
     <div className='allMoviesItem__container'>
-      <h1>{title}</h1>
+      <h1 onClick={handleClick}>{title}</h1>
     </div>
   );
 };

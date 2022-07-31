@@ -1,10 +1,23 @@
-import React from 'react'
-import Browser from './components/Browser/Browser'
+import React from 'react';
+import { BrowserView, MobileView } from 'react-device-detect';
+import Browser from './components/Browser/Browser';
+import Mobile from './components/Mobile/Mobile';
+
+import './scss/_reset.scss';
+import './scss/App.scss';
 
 const App = () => {
   return (
-  <Browser/>
-  )
-}
+    <>
+      <BrowserView>
+        <Browser />
+      </BrowserView>
 
-export default App
+      <MobileView>
+        <Mobile />
+      </MobileView>
+    </>
+  );
+};
+
+export default App;

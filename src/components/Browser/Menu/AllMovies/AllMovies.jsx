@@ -4,12 +4,12 @@ import movies from '../../../data/movies';
 
 import './AllMovies.scss';
 
-const AllMovies = ({ open }) => {
+const AllMovies = ({ open, setOpen }) => {
   return (
     <div
       className={open ? 'allMovies__container open' : 'allMovies__container'}>
       {movies.map((movie) => (
-        <AllMoviesItem title={movie.title} />
+        <AllMoviesItem title={movie.title} setOpen={setOpen} />
       ))}
     </div>
   );

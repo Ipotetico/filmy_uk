@@ -1,0 +1,13 @@
+.menuItem__container {
+    background-color: rgb(234, 234, 234);
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 40px;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
