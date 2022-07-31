@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/filmy_uk/static/css/main.072eca06.css",
-    "main.js": "/filmy_uk/static/js/main.792f370a.js",
+    "main.css": "/filmy_uk/static/css/main.0551e147.css",
+    "main.js": "/filmy_uk/static/js/main.b9ec4b63.js",
     "index.html": "/filmy_uk/index.html",
-    "main.072eca06.css.map": "/filmy_uk/static/css/main.072eca06.css.map",
-    "main.792f370a.js.map": "/filmy_uk/static/js/main.792f370a.js.map"
+    "main.0551e147.css.map": "/filmy_uk/static/css/main.0551e147.css.map",
+    "main.b9ec4b63.js.map": "/filmy_uk/static/js/main.b9ec4b63.js.map"
   },
   "entrypoints": [
-    "static/css/main.072eca06.css",
-    "static/js/main.792f370a.js"
+    "static/css/main.0551e147.css",
+    "static/js/main.b9ec4b63.js"
   ]
 }
