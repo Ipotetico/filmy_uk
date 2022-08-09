@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './MovieWindow.scss';
 
-const MovieWindow = ({ hash, title, opis, length, weight, address }) => {
+const MovieWindow = ({id, hash, title, opis, length, weight,poster, address }) => {
   const [open, setOpen] = useState(false);
 
   const ref = useRef(null);
@@ -12,15 +12,19 @@ const MovieWindow = ({ hash, title, opis, length, weight, address }) => {
   const handlePauseVideo = () => {
     ref.current.pause();
   };
+  
 
   return (
-    <div className='movieWindow__container'>
+    <div key={id} className='movieWindow__container'>
       <video
-        ref={ref}
-        onMouseEnter={handlePlayVideo}
-        onMouseLeave={handlePauseVideo}
-        muted
-        src={address}></video>
+          poster={poster}
+          preload='auto'
+          type='video/mp4'
+          ref={ref}
+          onMouseEnter={handlePlayVideo}
+          onMouseLeave={handlePauseVideo}
+          muted
+          src={address}></video>
       <div className={open ? 'opis open' : 'opis'}>
         <h1 className='hash'>#{hash}</h1>
         <div className='title__container'>
@@ -39,7 +43,7 @@ const MovieWindow = ({ hash, title, opis, length, weight, address }) => {
           <img
             className='download'
             src={process.env.PUBLIC_URL + '/images/download.svg'}
-            alt=''
+            alt='download'
           />
         </div>
         <p>{opis}</p>

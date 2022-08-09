@@ -10,22 +10,24 @@ import './Browser.scss';
 import Login from './Login/Login';
 
 
+
 const Browser = () => {
   const [isLogged, setIsLogged] = useState(false);
   const [open, setOpen] = useState(false);
   const [cookiesConsent, setCookiesConsent] = useState(false)
-
-  console.log(isLogged);
+  
 
   return (
+
     <div className='browser_container'>
-        <CookieConsent cookiesConsent={cookiesConsent} setCookiesConsent={setCookiesConsent}/>
+        {/*<CookieConsent cookiesConsent={cookiesConsent} setCookiesConsent={setCookiesConsent}/>*/}
       <Menu open={open} setOpen={setOpen} />
       <Info />
       {isLogged ? <MoviesList /> : <Login setIsLogged={setIsLogged} />}
       <Footer />
       <MenuHamburg open={open} />
     </div>
+
   );
 };
 

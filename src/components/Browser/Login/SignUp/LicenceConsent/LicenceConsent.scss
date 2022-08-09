@@ -1,0 +1,39 @@
+.licenceConsent___container {
+  width: 35%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+
+  .licenceConsent___window {
+    width: 25px;
+    height: 25px;
+    border: .5px solid rgba(black,.1);
+    background-color: rgba(black,.1);
+    border-radius: 5px;
+    transition: all .3s;
+    cursor: pointer;
+    z-index: 1;
+    padding: 3px;
+
+    &.true {
+      background-color: rgba(yellowgreen,.5);
+    }
+
+&:hover {
+  border: .5px solid rgba(black,.3);
+  background-color: rgba(black,.05);
+}
+  }
+
+  p {
+    font-size: 10px;
+    font-weight: 200;
+    z-index: 2;
+
+    span {
+      color: dodgerblue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

@@ -6,9 +6,11 @@ import Mobile from './components/Mobile/Mobile';
 import './scss/_reset.scss';
 import './scss/App.scss';
 
+
 const App = () => {
   return (
     <>
+
       <BrowserView>
         <Browser />
       </BrowserView>
@@ -16,6 +18,7 @@ const App = () => {
       <MobileView>
         <Mobile />
       </MobileView>
+
     </>
   );
 };

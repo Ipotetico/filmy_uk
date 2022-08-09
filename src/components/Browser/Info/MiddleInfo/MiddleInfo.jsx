@@ -12,11 +12,11 @@ const MiddleInfo = () => {
         subtitle={texts.frameOne.subtitle}
         copy={texts.frameOne.copy}
       />
-      <MiddleInfoFrame
-        title={texts.frameTwo.title}
-        subtitle={texts.frameTwo.subtitle}
-        copy={texts.frameTwo.copy}
-      />
+      {/*<MiddleInfoFrame*/}
+      {/*  title={texts.frameTwo.title}*/}
+      {/*  subtitle={texts.frameTwo.subtitle}*/}
+      {/*  copy={texts.frameTwo.copy}*/}
+      {/*/>*/}
     </div>
   );
 };

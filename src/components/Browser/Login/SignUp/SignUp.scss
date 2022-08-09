@@ -54,7 +54,7 @@
         background-color: #fff;
         border: 1px solid dodgerblue;
         width: 35%;
-        height: 50px;
+        height: 40px;
         padding: 0 20px;
         font-size: 14px;
         color: rgb(110, 110, 110);
@@ -75,7 +75,7 @@
 
     .btn {
         z-index: 1;
-        background-color: dodgerblue;
+        background-color: rgba(black, .3);
         color: white;
         font-weight: 14;
         font-size: 16px;
@@ -86,5 +86,10 @@
         appearance: none;
         box-sizing: border-box;
         cursor: pointer;
+        transition: all .3s;
+
+        &.active {
+            background-color: dodgerblue;
+        }
     }
 }
