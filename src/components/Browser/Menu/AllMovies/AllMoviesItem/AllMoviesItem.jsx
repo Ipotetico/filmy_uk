@@ -1,13 +1,11 @@
 import React from 'react';
 import './AllMoviesItem.scss';
 
-const AllMoviesItem = ({ title, setOpen }) => {
-  const handleClick = () => {
-    setOpen(false);
-  };
+const AllMoviesItem = ({ title, setOpen, zip }) => {
+
   return (
-    <div className='allMoviesItem__container'>
-      <h1 onClick={handleClick}>{title}</h1>
+    <div onClick={() =>setOpen(false)} className='allMoviesItem__container'>
+      <a className='download' href={zip}>{title}</a>
     </div>
   );
 };

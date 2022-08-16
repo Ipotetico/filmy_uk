@@ -3,17 +3,15 @@ import './Login.scss';
 import SignIn from './SignIn/SignIn';
 import SignUp from './SignUp/SignUp';
 
-const Login = ({ setIsLogged }) => {
-  const [registered, setRegistered] = useState(true);
+const Login = ({ setIsLogged, isRegistered, setIsRegistered }) => {
 
-  console.log(registered);
 
   return (
     <>
-      {registered ? (
-        <SignIn setIsLogged={setIsLogged} setRegistered={setRegistered} />
+      {isRegistered ? (
+        <SignIn setIsLogged={setIsLogged} isRegistered={isRegistered} setIsRegistered={setIsRegistered} />
       ) : (
-        <SignUp setIsLogged={setIsLogged} setRegistered={setRegistered} />
+        <SignUp setIsLogged={setIsLogged} isRegistered={isRegistered} setIsRegistered={setIsRegistered} />
       )}
     </>
   );

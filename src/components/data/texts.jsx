@@ -58,7 +58,14 @@ frameOne : {
             'Aliquam rhoncus, purus eget bibendum blandit, dolor metus sodales enim, a luctus leo lectus sit amet libero. Vestibulum vitae ullamcorper mauris, vel commodo tortor. Sed libero diam, efficitur non accumsan vel, dignissim eu urna. Duis semper erat id scelerisque dictum. Vestibulum placerat fringilla massa, in placerat justo condimentum et. Nam venenatis odio vitae sem laoreet, ultricies sagittis dui aliquet. Cras faucibus porta justo, id varius tellus vulputate id. Proin ac mi at nunc varius consequat. Morbi suscipit semper tempus. Vestibulum a lectus vitae urna ullamcorper accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In in sapien convallis, euismod lectus nec, bibendum metus. Aenean in egestas ligula. Nullam cursus massa id rhoncus consequat. Fusce viverra aliquet elit, ut elementum ipsum gravida eu.\n' +
             '\n' +
             'Aliquam cursus egestas lectus in condimentum. Morbi nisl enim, porta ut gravida convallis, feugiat quis arcu. Donec euismod vel massa sit amet placerat. Ut convallis quam consectetur libero varius blandit. Nam porta cursus nisl. Ut magna est, elementum pharetra ante vel, vestibulum ornare massa. Nulla et congue nunc. Curabitur vitae justo nisi. ',
+    },
+    contactUs: {
+    thanhs: 'Dziękujemy za rejestrację.',
+        copyOne: 'W celu uzyskania dostępu do filmów',
+        copyTwo:
+            ' prosimy o kontakt pod nr 123 456 789',
     }
+    
 };
 
 

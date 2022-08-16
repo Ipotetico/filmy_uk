@@ -20,6 +20,7 @@ const MoviesList = () => {
             weight={movie.weight}
             poster={movie.poster}
             address={movie.address}
+           zip={movie.zip}
         />
       ))}
     </div>

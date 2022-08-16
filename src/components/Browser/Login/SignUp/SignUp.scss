@@ -11,6 +11,10 @@
     padding: 20px;
     overflow: hidden;
 
+    @media screen and (min-width: 1000px) {
+        width: 75%;
+    }
+
     .fala {
         position: absolute;
         width: 100%;
@@ -18,17 +22,23 @@
 
     .ukry {
         position: absolute;
-        height: 80%;
+        height: 60%;
         right: -5%;
+        top: 50%;
+        transform: translateY(-60%);
     }
 
     .name__container {
         z-index: 1;
-        width: 35%;
+        width: 50%;
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media screen and (max-width: 1000px) {
+            width: 75%;
+        }
 
         input {
             box-sizing: border-box;
@@ -53,11 +63,15 @@
         z-index: 1;
         background-color: #fff;
         border: 1px solid dodgerblue;
-        width: 35%;
+        width: 50%;
         height: 40px;
         padding: 0 20px;
         font-size: 14px;
         color: rgb(110, 110, 110);
+
+        @media screen and (max-width: 1000px) {
+            width: 75%;
+        }
     }
 
     .link {

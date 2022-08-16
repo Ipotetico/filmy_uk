@@ -6,6 +6,8 @@ import './Search.scss';
 const Search = () => {
   const [open, setOpen] = useState(false);
 
+  console.log(open)
+  
   const ref = useDetectClickOutside({ onTriggered: () => setOpen(false) });
 
   return (

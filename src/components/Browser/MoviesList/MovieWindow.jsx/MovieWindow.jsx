@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './MovieWindow.scss';
 
-const MovieWindow = ({id, hash, title, opis, length, weight,poster, address }) => {
+const MovieWindow = ({id, hash, title, opis, length, weight,poster, address,zip }) => {
   const [open, setOpen] = useState(false);
 
   const ref = useRef(null);
@@ -40,11 +40,12 @@ const MovieWindow = ({id, hash, title, opis, length, weight,poster, address }) =
             alt=''
           />
           <h1 className='title'>{title}</h1>
+          <a className='download' href={zip} download>
           <img
-            className='download'
             src={process.env.PUBLIC_URL + '/images/download.svg'}
             alt='download'
           />
+          </a>
         </div>
         <p>{opis}</p>
         <p className='data'>

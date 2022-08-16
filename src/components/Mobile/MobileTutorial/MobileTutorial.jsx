@@ -6,12 +6,12 @@ const MobileTutorial = () => {
 
   return (
     <div className='mobileTutorial__container'>
-      <div className='hash'>#{texts.hash}</div>
+      <div className='hash'>#{texts.tutorial.hash}</div>
 
-      <h1 className='title'>{texts.title}</h1>
+      <h1 className='title'>{texts.tutorial.title}</h1>
 
       <p className='copy'>
-          {texts.copy}
+          {texts.tutorial.copy}
       </p>
 
       <div className='movie'>

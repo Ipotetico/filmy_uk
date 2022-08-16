@@ -3,12 +3,14 @@ const movies = [
     id: 1,
     hash: 'PESEL',
     title: 'Jak uzyskać PESEL',
-    opis: 'W tym filmie dowiesz się jak założyć profil zaufany oraz jak uzyskać nr PESEL, by legalnie korzystać z opieki zdrowotnej, pomocy społecznej lub założyć firmę.',
+    opis: 'W tym filmie dowiesz się, jak założyć profil' +
+        ' zaufany oraz jak uzyskać nr PESEL, by legalnie korzystać z opieki zdrowotnej, pomocy społecznej lub założyć firmę.',
     length: '4 min 13 sek',
     weight: '326 Mb',
     poster:'https://consolatrix.pl/UKRY/POSTERS/film_01.png',
     address:
       'https://consolatrix.pl/UKRY/LOW/EDUKR%20-%20Film%20nr%201%20-%20Jak%20uzyskac%20PESEL%20-%20low.mp4',
+    zip:'https://consolatrix.pl/UKRY/ZIPY/01_Jak uzyskac PESEL.zip',
   },
   {
     id: 2,
@@ -20,6 +22,7 @@ const movies = [
     poster:'https://consolatrix.pl/UKRY/POSTERS/film_02.png',
     address:
       'https://consolatrix.pl/UKRY/LOW/EDUKR%20-%20Film%20nr%202%20-%20Legalna%20praca%20w%20Polsce%20-%20low.mp4',
+    zip:'https://consolatrix.pl/UKRY/ZIPY/02_Legalna praca w Polsce.zip',
   },
   {
     id: 3,
@@ -31,12 +34,14 @@ const movies = [
     poster:'https://consolatrix.pl/UKRY/POSTERS/film_03.png',
     address:
       'https://consolatrix.pl/UKRY/LOW/EDUKR%20-%20Film%20nr%203%20-%20Dostep%20do%20lekow%20-%20low.mp4',
+    zip:'https://consolatrix.pl/UKRY/ZIPY/03_Dostep do lekow.zip',
   },
   {
     id: 4,
     hash: 'leczenie',
     title: 'Publiczna opieka medyczna',
-    opis: 'W tym filmie dowiesz się, jak możesz skorzystać z publicznej opieki medycznej w Polsce',
+    opis: 'W tym filmie dowiesz się, jak możesz' +
+        ' skorzystać z publicznej opieki medycznej w Polsce.',
     length: '4 min 13 sek',
     weight: '326 Mb',
     poster:'https://consolatrix.pl/UKRY/POSTERS/film_04.png',
@@ -58,7 +63,8 @@ const movies = [
     id: 6,
     hash: 'podatki',
     title: 'Zwolnienia z podatku',
-    opis: 'W tym filmie dowiesz się kiedy przysługuje Ci zwolnienie z podatku od uzyskanych świadczeń,',
+    opis: 'W tym filmie dowiesz się, kiedy przysługuje' +
+        ' Ci zwolnienie z podatku od uzyskanych świadczeń.',
     length: '4 min 13 sek',
     weight: '326 Mb',
     poster:'https://consolatrix.pl/UKRY/POSTERS/film_06.png',

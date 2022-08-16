@@ -1,0 +1,29 @@
+.contactUs___container {
+  width: 100vw;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 3vw;
+    font-weight: 200;
+    margin-bottom: 5px;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 4vw;
+    }
+  }
+}

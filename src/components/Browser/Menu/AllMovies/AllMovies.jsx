@@ -9,7 +9,7 @@ const AllMovies = ({ open, setOpen }) => {
     <div
       className={open ? 'allMovies__container open' : 'allMovies__container'}>
       {movies.map((movie) => (
-        <AllMoviesItem title={movie.title} setOpen={setOpen} />
+        <AllMoviesItem title={movie.title} setOpen={setOpen} zip={movie.zip} />
       ))}
     </div>
   );

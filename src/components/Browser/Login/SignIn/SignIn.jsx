@@ -1,7 +1,7 @@
 import React from 'react';
 import './SignIn.scss';
 
-const SignIn = ({ setIsLogged, setRegistered }) => {
+const SignIn = ({ setIsLogged,isRegistered, setIsRegistered }) => {
   return (
     <div className='login__container'>
       <img
@@ -19,7 +19,7 @@ const SignIn = ({ setIsLogged, setRegistered }) => {
       <input type='password' placeholder='Hasło...' />
       <p className='link'>
         Nie masz konta?{' '}
-        <span onClick={() => setRegistered(false)}>Utwórz je tutaj.</span>
+        <span onClick={() => setIsRegistered(false)}>Utwórz je tutaj.</span>
       </p>
       <button onClick={() => setIsLogged(true)} className='btn'>
         Zaloguj się
